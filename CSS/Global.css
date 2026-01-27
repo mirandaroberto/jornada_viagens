@@ -14,7 +14,7 @@
   --botoon-secondary-color: #b81515;
 
   --text-primary-color: #222222;
-  --text-secondary-color: #ffffff;
+  --secondary-ctextolor: #ffffff;
 
   --titles-weigth: 700;
   --text-weigth: 400;
@@ -36,3 +36,8 @@ button {
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-family: "Montserrat";
+}
+
