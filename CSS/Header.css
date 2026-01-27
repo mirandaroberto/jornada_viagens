@@ -11,11 +11,10 @@ header {
   display: inline-block;
   width: 68px;
   height: 64px;
-  
 }
 
-.menu {
-
+input[type="checkbox"]:checked ~ nav {
+  display: block;
 }
 
 nav {
