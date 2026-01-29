@@ -16,6 +16,9 @@
   --text-primary-color: #222222;
   --secondary-ctextolor: #ffffff;
 
+  --primary-color: #8f0101;
+  --secondary-color: #8b1515;
+
   --titles-weigth: 700;
   --text-weigth: 400;
   --menu-text-weigth: 500;
@@ -37,7 +40,29 @@ button {
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: "Montserrat";
+  color: var(--text-primary-color);
+}
+
+.section_title h2 {
+  font-size: 28px;
+  font-weight: var(--titles-weigth);
+  margin: 0;
+  text-align: center;
+}
+
+.section_title hr {
+  background-color: var(--secondary-color);
+  width: 180px;
+  height: 4px;
+  border: none;
+  margin: 16px auto 32px auto;
+}
+
+@media screen and (min-width: 768px) {
+  .section_title h2 {
+    font-size: 32px;
+  }
 }
 
