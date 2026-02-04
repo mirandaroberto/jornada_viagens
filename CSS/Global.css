@@ -39,5 +39,18 @@ button {
 
 body{
   font-family: "Montserrat";
+    color: var(--text-primary-color);
 }
 
+.section_title h2{
+  font-size: 28px;
+  font-weight: var(--text-weight);
+  margin: 0;
+  text-align: center;
+}
+
+.section_title hr{
+  width: 180px;
+  height: 4px;
+  background-color: var(--botoon-secondary-color);
+}

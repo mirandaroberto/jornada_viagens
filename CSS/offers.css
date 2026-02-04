@@ -21,9 +21,13 @@
 
 .card header h3{
     font-size: 40px;
-    font-weight: var(--titles-weigth)
+    font-weight: var(--titles-weigth);
+    margin: 8px 0 0;
+    
 }
 
 .card header span{
     font-size: 32px;
+    margin-top: 24px;
+    display: inline-block;
 }
