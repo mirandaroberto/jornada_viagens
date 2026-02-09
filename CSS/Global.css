@@ -14,14 +14,14 @@
   --botoon-secondary-color: #b81515;
 
   --text-primary-color: #222222;
-  --secondary-ctextolor: #ffffff;
+  --text-secondary-color: #ffffff;
 
   --primary-color: #8f0101;
   --secondary-color: #8b1515;
 
   --titles-weigth: 700;
-  --text-weigth: 400;
-  --menu-text-weigth: 500;
+  --text-weight: 400;
+  --menu-text-weight: 500;
 }
 
 /*CSS reset*/
@@ -34,6 +34,7 @@ legend,
 label,
 input,
 textarea,
+
 button {
   margin: 0;
   padding: 0;
