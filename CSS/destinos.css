@@ -1,0 +1,165 @@
+.destinos{
+    margin-top: 80px;
+
+}
+
+.destinos .item{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  
+}
+
+.destinos .item h4 {
+    width: 312px;
+    margin: 10px 0 0 0; 
+    text-align: left; 
+     font-weight: var(--titles-weigth);
+   
+  }
+
+.destinos .item  header {
+  display: block;
+  position: static;
+  padding: 0;
+  margin-bottom: 0px;
+  background-color: transparent;
+}
+
+.destinos .item p{
+
+  height: auto;
+  width: 312px;
+  text-align: left;
+  margin-top: 8px;
+}
+
+ .destinos_itens .img_item_olinda {
+
+ background-image: url(../IMG/destino_olinda_mobile.jpg);
+ width: 312px;
+ height: 176px;
+ background-repeat: no-repeat;
+ 
+}
+
+ .destinos_itens .img_item_carneiros {
+
+ background-image: url(../IMG/destino_carneiros_mobile.jpg);
+ width: 312px;
+ height: 176px;
+ background-repeat: no-repeat;
+ margin-top: 24px;
+ background-size: contain;
+}
+
+.destinos .button{
+
+text-align: center;
+margin-top: 24px;
+}
+
+
+@media screen and (min-width: 768px){
+
+  .destinos{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .destinos_itens{
+   width: 648px;
+  }
+  .destinos_itens .img_item_olinda {
+
+    background-image: url(/IMG/destino_olinda_desktop.jpg);
+    width: 588px;
+    height: 353px;
+   background-repeat: no-repeat;
+   margin-top: 24px;
+  background-size: contain;
+}
+
+.destinos_itens .img_item_carneiros{
+  
+ background-image: url(/IMG/destino_carneiros_desktop.jpg);
+ width: 588px;
+ height: 353px;
+ background-repeat: no-repeat;
+ margin-top: 24px;
+ background-size: contain;
+}
+
+.destinos .item p{
+  width: 588px;
+}
+
+.destinos .item h4{
+  width: 588px;
+}
+}
+
+@media screen and (min-width: 1024px){
+
+  .destinos_itens{
+   width: 900px;
+  }
+}
+
+@media screen and (min-width: 1440px){
+
+  .destinos{
+    width: 1200px;
+    margin: 80px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .destinos_itens{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    align-items: flex-start;
+    }
+
+    .destinos_itens .img_item_olinda {
+
+    background-image: url(/IMG/destino_olinda.jpg);
+    width: 588px;
+    height: 331px;
+   background-repeat: no-repeat;
+   margin-top: 24px;
+   background-size: contain;
+  
+}
+
+  .destinos_itens .img_item_carneiros{
+  
+ background-image: url(/IMG/destino_carneiros.jpg);
+ width: 588px;
+ height: 331px;
+ background-repeat: no-repeat;
+ margin-top: 24px;
+ background-size: contain;
+
+}
+
+  
+  .destinos .item img, 
+  .destinos .item .img_item_olinda, 
+  .destinos .item .img_item_carneiros,
+  .destinos .item p, 
+  .destinos .item h4 {
+        width: 500px;             
+    }
+
+}
+
