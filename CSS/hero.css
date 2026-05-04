@@ -55,6 +55,8 @@
   }
 
   .hero h2 {
+    width: 1200px;
     padding: 88px 160px;
+    align-items: center;
   }
 }
