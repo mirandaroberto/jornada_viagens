@@ -1,0 +1,72 @@
+.Depoimento_container{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    
+
+}
+
+.Depoimento_container article header{
+    width: 384px;
+   
+}
+
+
+.Depoimento_container article header p {
+    font-size: 16px;
+    line-height: 28px;
+    
+    
+}
+
+.Depoimento_container footer{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-top: 8px;
+    align-items: center;
+}
+
+.Depoimento_container footer img{
+    width: 86px;
+    height: 86px;
+
+}
+
+.Depoimento_container footer .Perfil_content h4{
+
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: var(--titles-weigth);
+    margin: 0 0 8px;
+}
+
+.Depoimento_container footer .Perfil_content .rating .star{
+    font-size: 32px;
+    color: var(--secondary-color);
+    line-height: 32px;
+}
+
+@media screen and (min-width: 1440px) {
+   
+.Depoimento_container{
+        flex-direction: row;  
+        ;
+    }
+.Depoimento_container header{
+    padding: ;
+}
+
+.Depoimento_container article header p {
+    width: 384px;
+    height: 112px;
+    text-align: left;
+    }
+
+    
+.Depoimento_container article header {
+    padding: 0 !important; 
+    width: 100%;
+}
+
+}

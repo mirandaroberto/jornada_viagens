@@ -1,109 +1,150 @@
-.offers {
-  margin-bottom: 104px;
-}
-.offers_card {
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 24px;
- 
-}
-
-.offers_card .card {
-  color: var(--text-secondary-color);
- 
-  padding:24px 16px; 
-  width: 312px;
-  height: 288px;
-  box-sizing: border-box;
-  border-radius: 16px;
-  text-align: center;
-}
-
-.offers_card .card header {
-  display: block;
-  position: static;
-  padding: 0;
-  margin-bottom: 24px;
-  background-color: transparent;
-}
-
-.offers_card .card header p {
-  font-size: 20px;
-  font-weight: var(--text-weight);
-}
-
-.offers_card .card header h3 {
-  font-size: 40px;
-  font-weight: var(--titles-weigth);
-  margin: 8px 0 0;
-}
-
-.offers_card .card header span {
-  font-size: 32px;
-  margin-top: 24px;
-  display: inline-block;
-}
-
-.offers_card .card.carneiros {
-  background-image: url(../IMG/bg_card_carneiros.jpg);
-  background-size: cover;
- 
-}
-
-
-.offers_card .card.olinda {
-  background-image: url(../IMG/bg_card_olinda.jpg);
-  background-size: cover;
-}
-
-.offers_card .card.noronha {
-  background-image: url(../IMG/bg_card_noronha.jpg);
-  background-size: cover;
-}
-
-.offers_card .card.patacho {
-  background-image: url(../IMG/bg_card_patacho.jpg);
-  background-size: cover;
-}
-
-@media screen and (min-width: 768px) {
+  .offers {
+    margin-bottom: 104px;
+  }
   .offers_card {
-    
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-  }
-}
 
-@media screen and (min-width: 1024px) {
-  .card {
-    width: 420px;
-    height: 308px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  
+  
   }
 
-  .card header h3 {
-    font-size: 48px;
+  .offers_card .card {
+    color: var(--text-secondary-color);
+  
+    padding:24px 16px; 
+    width: 312px;
+    height: 288px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    text-align: center;
   }
 
-  .card header span {
+  .offers_card .card header {
+    display: block; 
+    position: static;
+    padding: 0;
+    margin-bottom: 24px;
+    background-color: transparent;
+  }
+
+  .offers_card .card header p {
+    font-size: 20px;
+    font-weight: var(--text-weight);
+  }
+
+  .offers_card .card header h3 {
     font-size: 40px;
+    font-weight: var(--titles-weigth);
+    margin: 8px 0 0;
   }
 
- 
-}
-
-@media screen and (min-width: 1440px) {
-  .card {
-    width: 588px;
+  .offers_card .card header span {
+    font-size: 32px;
+    margin-top: 24px;
+    display: inline-block;
   }
-}
 
-@media screen and (min-width: 1920px) {
-  .offers_cards {
-    width: 1250px;
-    margin: 0 auto;
+  .offers_card .card.carneiros {
+    background-image: url(../IMG/bg_card_carneiros.jpg);
+    background-size: cover;
+  
   }
-}
+
+
+  .offers_card .card.olinda {
+    background-image: url(../IMG/bg_card_olinda.jpg);
+    background-size: cover;
+  }
+
+  .offers_card .card.noronha {
+    background-image: url(../IMG/bg_card_noronha.jpg);
+    background-size: cover;
+  }
+
+  .offers_card .card.patacho {
+    background-image: url(../IMG/bg_card_patacho.jpg);
+    background-size: cover;
+  }
+
+  @media screen and (min-width: 768px) {
+    .offers_card {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 24px;
+      width: 740px;
+      max-width: 78 0px;
+      margin: 0 auto;
+    }
+
+    .offers_card .card {
+      width: 312px;           
+      height: 288px;
+     margin: 0;
+  }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .offers { 
+      width: 100%            
+      margin: 0 auto;            
+    }
+    
+    
+    .offers_card {
+      display: flex;
+      flex-direction: row;   
+      gap: 24px;
+      width: 900px;
+      
+      
+    }
+
+    .offers .card {
+      width: 380px 
+      height:308px;
+    }
+
+    .card header h3 {
+      font-size: 48px;
+    }
+
+    .card header span {
+      font-size: 40px;
+    }
+
+  
+  }
+
+  @media screen and (min-width: 1440px) {
+
+     .offers { 
+      width: 100%             
+      margin: 0 auto;            
+    }
+
+    .offers_cards {
+      display: flex;
+      flex-direction: row;   
+      gap: 24px;
+      width: 1250px;
+      margin: 0 auto;
+    }
+
+    .offers .card {
+      width: 380px ;
+      height: 308px;
+    }
+  }
+
+  @media screen and (min-width: 1920px) {
+    .offers_cards {
+      flex-direction: row;
+      width: 1250px;
+      margin: 0 auto;
+    }
+  }
